@@ -1,0 +1,71 @@
+.download_box {
+    text-align: center;
+    margin-top: 84px;
+  }
+  .download_box .download_title {
+    font-family: "PingFang SC";
+    font-weight: 300;
+    color: #35383A;
+    font-size: 42px;
+    line-height: 1em;
+  }
+  .download_box .download_list {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  .download_box .download_item {
+    width: 320px;
+    height: 390px;
+    background: #fff;
+    box-shadow: 0px 2px 24px 0px rgba(229, 229, 229, 0.5);
+    border-radius: 2px;
+    border: 1px solid #f1f1f1;
+    margin: 0px 80px;
+    position: relative;
+  }
+  .download_box .download_item:hover .download_item_hover {
+    opacity: 1;
+    margin-top: 0px;
+  }
+  .download_box .download_item:hover .download_item_nohover {
+    display: none;
+  }
+  .download_box .download_item .download_item_hover {
+    transition: all 0.3s;
+    position: absolute;
+    margin-top: 10px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    opacity: 0;
+  }
+  .download_box .download_item .download_item_hover img {
+    width: 278px;
+    height: 278px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+  }
+  .download_box .download_item .download_item_hover div {
+    font-size: 18px;
+    color: #A0A4AA;
+    line-height: 26px;
+  }
+  .download_box .download_item .download_item_nohover {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+  .download_box .download_item .download_item_nohover img {
+    width: 150px;
+    height: 150px;
+    margin: 76px 0px 64px;
+  }
+  .download_box .download_item .download_item_nohover div {
+    color: #35383A;
+    font-size: 30px;
+  }
